@@ -35,10 +35,10 @@
     </h2>
     
     {% if post.image %}
-      <img src="{{ post.image | relative_url }}" alt="" class="blog-roll-image">
+      <img src="{{ post.image | relative_url }}" alt="" class="pub-list-image">
     {% else %}
     {% assign postImage = "/images/bio-photo-2.jpg" %}
-      <img src="" alt="" class="blog-roll-image">
+      <img src="" alt="" class="pub-list-image">
     {% endif %}
     
     {% if post.read_time %}
