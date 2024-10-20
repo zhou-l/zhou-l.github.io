@@ -21,9 +21,9 @@ author_profile: true
       {% endif %}
       {% unless title_shown %}
          {% if post.image %}
-           <img src="{{- post.image | relative_url -}}" alt="" class="blog-roll-image">
+           <img src="{{ post.image | relative_url }}" alt="" class="blog-roll-image">
          {% else %}
-          {% assign postImage = "/assets/img/featured-posts/default.jpg" %}
+          {% assign postImage = "/images/bio-photo-2.jpg" %}
             <img src="" alt="" class="blog-roll-image">
          {% endif %}
         <h2>{{ category[1].title }}</h2><hr />
