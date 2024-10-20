@@ -19,10 +19,10 @@ layout: default
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 class="page__title">{{ page.title }}</h1>
     {% endunless %}
-    {% if post.image %}
-        <img src="{{ post.image | relative_url }}" alt="" class="blog-roll-image">
+    {% if page.image %}
+        <img src="{{ page.image | relative_url }}" alt="" class="blog-roll-image">
      {% else %}
-      {% assign postImage = "/images/bio-photo-2.jpg" %}
+      {% assign pageImage = "/images/bio-photo-2.jpg" %}
         <img src="" alt="" class="blog-roll-image">
      {% endif %}
     {{ content }}
