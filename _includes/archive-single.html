@@ -34,6 +34,13 @@
       {% endif %}
     </h2>
     
+    {% if post.image %}
+      <img src="{{ post.image | relative_url }}" alt="" class="blog-roll-image">
+    {% else %}
+    {% assign postImage = "/images/bio-photo-2.jpg" %}
+      <img src="" alt="" class="blog-roll-image">
+    {% endif %}
+    
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
