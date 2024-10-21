@@ -4,7 +4,7 @@ image: 'https://zhou-l.github.io/images/image-alignment-300x200.jpg'
 collection: publications
 category: manuscripts
 permalink: /publication/va_multioutcome_graphs_vis24.md
-date: 2024
+date: 2024-08-15
 venue: 'IEEE Transactions on Visualization and Computer Graphics (VIS 2024)'
 slidesurl: 'http://zhou-l.github.io/files/talk_va_mg_vis24.pdf'
 paperurl: 'http://zhou-l.github.io/files/va_mg_vis24.pdf'

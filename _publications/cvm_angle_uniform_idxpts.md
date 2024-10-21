@@ -4,7 +4,7 @@ image: 'https://zhou-l.github.io/images/image-alignment-300x200.jpg'
 collection: publications
 category: manuscripts
 permalink: /publication/cvm_angle_uniform_idxpts.md
-date: 2023
+date: 2023-03-17
 venue: 'Computational Visual Media'
 slidesurl: 'http://zhou-l.github.io/files/talk_vis_tcmformula_jmirfr.pdf'
 paperurl: 'http://zhou-l.github.io/files/vis_tcmformula_jmirfr.pdf'

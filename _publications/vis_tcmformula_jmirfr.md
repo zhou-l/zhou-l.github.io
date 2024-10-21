@@ -4,7 +4,7 @@ image: 'https://zhou-l.github.io/images/image-alignment-300x200.jpg'
 collection: publications
 category: manuscripts
 permalink: /publication/vis_tcmformula_jmirfr.md
-date: 2023
+date: 2023-01-01
 venue: 'JMIR Formative Research'
 slidesurl: 'http://zhou-l.github.io/files/talk_vis_tcmformula_jmirfr.pdf'
 paperurl: 'http://zhou-l.github.io/files/vis_tcmformula_jmirfr.pdf'
