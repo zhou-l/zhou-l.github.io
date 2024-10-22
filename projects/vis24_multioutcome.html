@@ -52,43 +52,59 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">Visual Analysis of Multi-outcome Causal Graphs</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Mengjie Fan</a>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Jinlu Yu</a>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                    <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Daniel Weiskopf</a>,</span>
+                    <span class="author-block">
+                      <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Nan Cao</a>,</span>
+                    <span class="author-block">
+                      <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Huai-Yu Wang</a>,</span>
+                  <span class="author-block">
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Liang Zhou</a><sup>*</sup>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block"><br>IEEE Transactions on Visualization and Computer Graphics (VIS2024)</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding author</small></span>
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
+                         <span class="link-block">
+                          <a href="https://doi.org/10.1109/TVCG.2024.3456346" target="_blank"
+                          class="external-link button is-normal is-rounded is-dark">
+                          <!-- <span class="icon">
+                            <i class="fas fa-file-pdf"></i>
+                          </span> -->
+                          <span>DOI</span>
+                        </a>
+                      </span>
+
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="../papers/va_multioutcome_causalgraphs_arxiv.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
+                        <!-- <span class="icon">
                           <i class="fas fa-file-pdf"></i>
-                        </span>
+                        </span> -->
                         <span>Paper</span>
                       </a>
                     </span>
 
                     <!-- Supplementary PDF link -->
                     <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      <a href="/papers/va_multioutcome_causalgraphs_arxiv.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
+                      <!-- <span class="icon">
                         <i class="fas fa-file-pdf"></i>
-                      </span>
+                      </span> -->
                       <span>Supplementary</span>
                     </a>
                   </span>
@@ -106,7 +122,7 @@
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://arxiv.org/abs/2408.02679" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
@@ -124,12 +140,12 @@
 
 
 <!-- Teaser video-->
-<section class="hero teaser">
+<!-- <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
+      <video poster="" id="tree" autoplay controls muted loop height="100%"> -->
         <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
+        <!-- <source src="static/videos/banner_video.mp4"
         type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
@@ -137,7 +153,7 @@
       </h2>
     </div>
   </div>
-</section>
+</section> -->
 <!-- End teaser video -->
 
 <!-- Paper abstract -->
@@ -148,8 +164,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
-          </p>
+            We introduce a visual analysis method for multiple causal graphs with different outcome variables, namely, multi-outcome causal graphs. Multi-outcome causal graphs are important in healthcare for understanding multimorbidity and comorbidity. To support the visual analysis, we collaborated with medical experts to devise two comparative visualization techniques at different stages of the analysis process. First, a progressive visualization method is proposed for comparing multiple state-of-the-art causal discovery algorithms. The method can handle mixed-type datasets comprising both continuous and categorical variables and assist in the creation of a fine-tuned causal graph of a single outcome. Second, a comparative graph layout technique and specialized visual encodings are devised for the quick comparison of multiple causal graphs. In our visual analysis approach, analysts start by building individual causal graphs for each outcome variable, and then, multi-outcome causal graphs are generated and visualized with our comparative technique for analyzing differences and commonalities of these causal graphs. Evaluation includes quantitative measurements on benchmark datasets, a case study with a medical expert, and expert user studies with real-world health research data.          </p>
         </div>
       </div>
     </div>
@@ -278,7 +293,16 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>@ARTICLE{Fan2024,
+        author={Fan, Mengjie and Yu, Jinlu and Weiskopf, Daniel and Cao, Nan and Wang, Huai-Yu and Zhou, Liang},
+        journal={IEEE Transactions on Visualization and Computer Graphics}, 
+        title={Visual Analysis of Multi-outcome Causal Graphs}, 
+        year={2024},
+        volume={},
+        number={},
+        pages={1-11},
+        keywords={Visualization;Data visualization;Layout;Cause effect analysis;Medical diagnostic imaging;Diseases;Cognition;Causal graph visualization and visual analysis;causal discovery;comparative visualization;visual analysis in medicine},
+        doi={10.1109/TVCG.2024.3456346}}</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
